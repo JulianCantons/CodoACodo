@@ -1,0 +1,39 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(92, 179, 205);
+    /*transition: width 2s;*/
+    transition: width 2s height 4s;
+    transition-delay: 0.5s;
+}
+
+div:hover{
+    width: 300px;
+    height: 300px;
+}
+
+div:hover{
+    width: 300px;
+    height: 300px;
+   transform: rotate(180deg);
+}
+
+.animacion1{
+    animation-duration: 3s;
+    animation-iteration-count:4; /*cantidad de veces que hace la animacion*/
+    animation-direction: alternate;
+    animation-name: prueba;
+}
+
+@keyframes prueba{
+    /*inicio*/
+    from{
+        width: 300%;
+        color: black
+    }
+    /*final*/
+    to{
+        width: 100px;
+        color: #ffff;
+    }
+}

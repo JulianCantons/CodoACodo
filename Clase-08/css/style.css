@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.contenedor-flex{
+background-color: cornflowerblue;
+margin: auto;
+width: 80%;
+height: 120px;
+margin-top: 10px;
+display: flex;
+
+justify-content: center;
+justify-content: flex-start;
+justify-content: space-between;
+justify-content: space-around;
+justify-content: space-evenly;
+flex-direction: row-reverse;
+
+
+align-items: center;
+/*align-items: flex-end;*/
+
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: lightsalmon;
+}
+#tres{
+    align-self: flex-start;
+}

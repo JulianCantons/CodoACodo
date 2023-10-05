@@ -1,0 +1,31 @@
+div{
+    border: royalblue 3px solid;
+
+}
+/*
+div > p {
+    color: rgb(110, 248, 107);
+}
+
+selector descendente
+div ~ p{
+    color: sandybrown;
+}
+
+*/
+
+div + p{
+    color: darkmagenta;
+}
+.fuente{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+}
+
+.textoColor {
+    color: rgb(238, 85, 85);
+}
+
+.sombra{
+    text-shadow: 3px 2px rgb(47, 77, 86);
+}

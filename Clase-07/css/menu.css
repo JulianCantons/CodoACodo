@@ -1,0 +1,36 @@
+.fondo{
+    width: 300px;
+    height: 150px;
+    margin-top: 50px;
+    margin: auto;
+    background-color: darkgrey;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.fondo:hover{
+    background-color: rgb(184, 206, 247);
+}
+
+#numSocio:hover{
+    background-color: darkslateblue;
+}
+#pass:hover{
+    background-color: goldenrod;
+}
+
+#pass:focus{
+    background-color: goldenrod;
+}
+/*pseudoselectores: */
+a:hover
+{
+    font-size: 20px;
+    color: teal;
+   
+}
+
+a:visited
+{
+    color: pink;
+}
